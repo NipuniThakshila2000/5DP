@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 import portraitImage from './assets/portrait-conscience.png';
-import techImage from './assets/ciq-technology.png';
+import ciqInsightImage from './assets/ciq-insight.png';
 
 const navItems = [
   ['Program', '#program'],
@@ -236,7 +236,7 @@ function App() {
             </p>
           </div>
           <div className="tech-panel" data-reveal>
-            <img src={techImage} alt="Human silhouette with subtle data visualization" />
+            <img src={ciqInsightImage} alt="Person reflecting beside a warm interactive intelligence display" />
           </div>
           <div className="feature-row">
             {features.map(([title, text]) => (
