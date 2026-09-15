@@ -183,8 +183,8 @@ function App() {
               CIQ brings conscience, context, technology and human potential into one five-day experience.
             </p>
             <p className="editorial idea-language">
-              <span>A new language</span>
-              <span>for an old question.</span>
+              <span>For an old question</span>
+              <span>A new language.</span>
             </p>
           </div>
           <img className="portrait-image" src={portraitImage} alt="Thoughtful human portrait in dramatic natural light" data-reveal />
