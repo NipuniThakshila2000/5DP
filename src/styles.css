@@ -233,9 +233,9 @@ p {
   padding-bottom: 54px;
   isolation: isolate;
   background:
-    linear-gradient(90deg, rgba(17, 16, 14, 0.92) 0%, rgba(17, 16, 14, 0.62) 42%, rgba(17, 16, 14, 0.24) 100%),
-    linear-gradient(0deg, rgba(17, 16, 14, 0.72), rgba(17, 16, 14, 0.08) 42%),
-    url("./assets/hero-athlete.png") center / cover;
+    linear-gradient(90deg, rgba(17, 16, 14, 0.94) 0%, rgba(17, 16, 14, 0.68) 42%, rgba(17, 16, 14, 0.28) 100%),
+    linear-gradient(0deg, rgba(17, 16, 14, 0.78), rgba(17, 16, 14, 0.1) 48%),
+    url("./assets/hero-mountain.png") center / cover;
 }
 
 .hero::before {
@@ -244,7 +244,7 @@ p {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 16% 26%, rgba(201, 130, 69, 0.24), transparent 28%),
+    radial-gradient(circle at 18% 30%, rgba(201, 130, 69, 0.18), transparent 26%),
     linear-gradient(180deg, transparent 72%, var(--obsidian) 100%);
 }
 
