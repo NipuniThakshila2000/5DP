@@ -11,7 +11,6 @@ import {
   Zap,
 } from 'lucide-react';
 import './styles.css';
-import heroImage from './assets/hero-athlete.png';
 import portraitImage from './assets/portrait-conscience.png';
 import techImage from './assets/ciq-technology.png';
 import theologyImage from './assets/theology-book.png';
@@ -173,10 +172,7 @@ function App() {
               <Button href="#ciq" variant="ghost">Explore CIQ</Button>
             </div>
           </div>
-          <div className="hero-image-wrap" data-reveal>
-            <img src={heroImage} alt="Athlete standing at dawn on a mountain ridge" />
-            <p>Your starting point matters.</p>
-          </div>
+          <p className="hero-statement" data-reveal>Your starting point matters.</p>
         </section>
 
         <section className="idea section-ivory" id="program">
