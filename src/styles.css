@@ -683,7 +683,12 @@ p {
 }
 
 .heritage svg { color: var(--accent-deep); }
-.story .quote { grid-column: 2 / 8; margin-top: 58px; }
+.story .quote {
+  grid-column: 2 / 14;
+  max-width: none;
+  margin-top: 58px;
+  white-space: nowrap;
+}
 
 .story {
   background:
@@ -1052,6 +1057,10 @@ details p { color: rgba(34, 34, 31, 0.72); }
     padding: 28px 0 0 20px;
   }
   .split-image { min-height: 46svh; }
+  .story .quote {
+    max-width: 100%;
+    white-space: normal;
+  }
   .image-split:not(.legacy) .overlay-copy {
     position: relative;
     left: auto;
