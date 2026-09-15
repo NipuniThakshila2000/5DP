@@ -934,8 +934,9 @@ details p { color: rgba(34, 34, 31, 0.72); }
   align-items: center;
   text-align: center;
   background:
-    linear-gradient(rgba(17, 16, 14, 0.82), rgba(17, 16, 14, 0.9)),
-    url("./assets/hero-athlete.png") center / cover;
+    radial-gradient(circle at 50% 48%, rgba(201, 130, 69, 0.2), transparent 32%),
+    linear-gradient(rgba(17, 16, 14, 0.7), rgba(17, 16, 14, 0.92)),
+    url("./assets/final-cta-bg.png") center / cover;
 }
 
 .final-cta > div {
