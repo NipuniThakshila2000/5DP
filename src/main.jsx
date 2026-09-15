@@ -182,7 +182,10 @@ function App() {
               Technology can give us more information. The deeper question is what we do with it.
               CIQ brings conscience, context, technology and human potential into one five-day experience.
             </p>
-            <p className="editorial">A new language for an old question.</p>
+            <p className="editorial idea-language">
+              <span>A new language</span>
+              <span>for an old question.</span>
+            </p>
           </div>
           <img className="portrait-image" src={portraitImage} alt="Thoughtful human portrait in dramatic natural light" data-reveal />
         </section>
