@@ -174,7 +174,10 @@ function App() {
               <Button href="#ciq" variant="ghost">Explore CIQ</Button>
             </div>
           </div>
-          <p className="hero-statement" data-reveal>Your starting point matters.</p>
+          <p className="hero-statement" data-reveal>
+            <span>Your starting point</span>
+            <span>matters.</span>
+          </p>
         </section>
 
         <section className="idea section-ivory" id="program">
