@@ -11,6 +11,7 @@ import {
   Zap,
 } from 'lucide-react';
 import './styles.css';
+import logoImage from './assets/5dp-logo.png';
 import portraitImage from './assets/portrait-conscience.png';
 import ciqInsightImage from './assets/ciq-insight.png';
 
@@ -109,7 +110,9 @@ function Header() {
 
   return (
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="CIQ home">CIQ</a>
+      <a className="brand" href="#top" aria-label="5DP home">
+        <img src={logoImage} alt="" />
+      </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
         {navItems.map(([label, href]) => (
           <a key={label} href={href}>{label}</a>
@@ -443,7 +446,9 @@ function App() {
       </main>
       <footer className="footer">
         <div>
-          <a className="brand" href="#top">CIQ</a>
+          <a className="brand" href="#top" aria-label="5DP home">
+            <img src={logoImage} alt="" />
+          </a>
           <p>Conscience × Technology × Human Potential</p>
         </div>
         <nav aria-label="Footer navigation">
