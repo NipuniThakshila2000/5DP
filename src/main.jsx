@@ -351,10 +351,6 @@ function App() {
               </React.Fragment>
             ))}
           </div>
-          <p className="quote story-question" data-reveal>
-            <span>An old question.</span>
-            <span>A new language.</span>
-          </p>
         </section>
 
         <section className="legacy image-split">
