@@ -312,7 +312,7 @@ p {
   color: var(--ivory);
   background:
     linear-gradient(90deg, rgba(17, 16, 14, 0.88), rgba(17, 16, 14, 0.46)),
-    url("./assets/hero-athlete.png") center / cover;
+    url("./assets/ciq-technology.png") center / cover;
 }
 
 .band-copy { grid-column: 2 / 8; align-self: center; }
@@ -554,6 +554,10 @@ p {
 .split-image {
   min-height: 95svh;
   filter: saturate(0.86) contrast(1.06);
+}
+
+.legacy .split-image {
+  grid-column: 1 / 2;
 }
 
 .image-split::after {

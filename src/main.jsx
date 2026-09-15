@@ -348,21 +348,18 @@ function App() {
           <p className="quote" data-reveal>An old question. A new language.</p>
         </section>
 
-        <section className="inheritance image-split">
+        <section className="legacy image-split">
           <div className="split-image" data-reveal>
             <img src={theologyImage} alt="Open antique theological book on dark stone surface" />
           </div>
-          <div className="split-image" data-reveal>
-            <img src={techImage} alt="Subtle human silhouette and data lines" />
-          </div>
           <div className="overlay-copy" data-reveal>
-            <Eyebrow>10 — Inheritance</Eyebrow>
-            <h2>What We Have Inherited<br />Can Become What We Build.</h2>
+            <Eyebrow>10 - Legacy</Eyebrow>
+            <h2>What We Carry<br />Can Become What We Build.</h2>
             <p>
               The idea behind CIQ is not simply to add technology to an existing conversation. It is
               to explore how a long-running conversation about conscience can meet a new technological age.
             </p>
-            <p className="short-statement">From inheritance<br />to innovation.</p>
+            <p className="short-statement">From foundation<br />to innovation.</p>
           </div>
         </section>
 
