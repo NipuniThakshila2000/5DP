@@ -551,13 +551,19 @@ p {
   background: var(--obsidian);
 }
 
+.legacy {
+  display: grid;
+  grid-template-columns: var(--grid);
+  align-items: end;
+  background:
+    linear-gradient(90deg, rgba(17, 16, 14, 0.84), rgba(17, 16, 14, 0.46) 48%, rgba(17, 16, 14, 0.16)),
+    linear-gradient(0deg, rgba(17, 16, 14, 0.72), rgba(17, 16, 14, 0.08) 58%),
+    url("./assets/theology-book.png") center / cover;
+}
+
 .split-image {
   min-height: 95svh;
   filter: saturate(0.86) contrast(1.06);
-}
-
-.legacy .split-image {
-  grid-column: 1 / 2;
 }
 
 .image-split::after {
@@ -565,6 +571,10 @@ p {
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, rgba(17, 16, 14, 0.78), rgba(17, 16, 14, 0.24));
+}
+
+.legacy::after {
+  display: none;
 }
 
 .overlay-copy {
@@ -836,8 +846,13 @@ details p { color: rgba(34, 34, 31, 0.72); }
   .stacked-accent { grid-column: 2 / 6; }
   .section-editorial > div:nth-child(2) { margin-top: 24px; }
   .image-split { display: block; min-height: auto; }
+  .legacy {
+    display: grid;
+    min-height: 92svh;
+    background-position: 55% center;
+  }
   .split-image { min-height: 46svh; }
-  .overlay-copy {
+  .image-split:not(.legacy) .overlay-copy {
     position: relative;
     left: auto;
     bottom: auto;

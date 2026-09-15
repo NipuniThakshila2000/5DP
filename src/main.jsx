@@ -13,7 +13,6 @@ import {
 import './styles.css';
 import portraitImage from './assets/portrait-conscience.png';
 import techImage from './assets/ciq-technology.png';
-import theologyImage from './assets/theology-book.png';
 
 const navItems = [
   ['Program', '#program'],
@@ -349,9 +348,6 @@ function App() {
         </section>
 
         <section className="legacy image-split">
-          <div className="split-image" data-reveal>
-            <img src={theologyImage} alt="Open antique theological book on dark stone surface" />
-          </div>
           <div className="overlay-copy" data-reveal>
             <Eyebrow>10 - Legacy</Eyebrow>
             <h2>What We Carry<br />Can Become What We Build.</h2>
