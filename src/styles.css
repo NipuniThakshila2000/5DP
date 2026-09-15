@@ -633,12 +633,39 @@ p {
 .section-editorial > div:nth-child(2) { grid-column: 8 / 12; }
 
 .stacked-accent {
-  grid-column: 12 / 14;
+  grid-column: 7 / 14;
+  justify-self: end;
+  align-self: end;
+  display: grid;
+  gap: clamp(4px, 0.8vw, 10px);
   color: var(--obsidian);
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(44px, 5vw, 76px);
+  font-size: clamp(58px, 7vw, 116px);
   font-style: italic;
-  line-height: 0.88;
+  line-height: 0.78;
+  text-align: right;
+}
+
+.stacked-accent span:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
+  color: var(--accent-deep);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(12px, 1vw, 15px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.stacked-accent span:nth-child(2)::before {
+  content: "";
+  width: clamp(52px, 9vw, 128px);
+  height: 1px;
+  background: rgba(142, 79, 44, 0.46);
 }
 
 .statement-stack {
@@ -962,7 +989,11 @@ details p { color: rgba(34, 34, 31, 0.72); }
   .center-copy, .note { grid-column: 2 / 10; }
   .section-editorial > div:first-child { grid-column: 2 / 6; }
   .section-editorial > div:nth-child(2) { grid-column: 6 / 10; }
-  .stacked-accent { grid-column: 2 / 10; margin-top: 42px; }
+  .stacked-accent {
+    grid-column: 4 / 10;
+    margin-top: 42px;
+    font-size: clamp(52px, 9vw, 82px);
+  }
   .flourishing > div:first-child { grid-column: 2 / 6; }
   .flourishing > p { grid-column: 6 / 10; }
   .flourish-word { grid-column: 2 / 10; }
@@ -1044,6 +1075,13 @@ details p { color: rgba(34, 34, 31, 0.72); }
   .section-editorial > div:nth-child(2),
   .stacked-accent { grid-column: 2 / 6; }
   .section-editorial > div:nth-child(2) { margin-top: 24px; }
+  .stacked-accent {
+    justify-self: stretch;
+    margin-top: 38px;
+    font-size: clamp(48px, 15vw, 72px);
+  }
+  .stacked-accent span:nth-child(2) { gap: 14px; }
+  .stacked-accent span:nth-child(2)::before { width: clamp(44px, 22vw, 84px); }
   .image-split { display: block; min-height: auto; }
   .legacy {
     display: grid;

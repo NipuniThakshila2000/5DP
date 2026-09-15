@@ -305,7 +305,11 @@ function App() {
               appropriate professional care remains important.
             </p>
           </div>
-          <p className="stacked-accent" data-reveal>Awareness<br />Before<br />Intensity.</p>
+          <p className="stacked-accent" data-reveal>
+            <span>Awareness</span>
+            <span>Before</span>
+            <span>Intensity.</span>
+          </p>
         </section>
 
         <section className="freedom section-dark">
