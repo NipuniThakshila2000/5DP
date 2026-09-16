@@ -12,8 +12,8 @@ import {
 } from 'lucide-react';
 import './styles.css';
 import logoImage from './assets/5dp-logo.png';
-import portraitImage from './assets/portrait-conscience.png';
-import ciqInsightImage from './assets/ciq-insight.png';
+import portraitImage from './assets/portrait-performance.png';
+import ciqInsightImage from './assets/ciq-performance.png';
 
 const navItems = [
   ['Program', '#program'],
@@ -193,7 +193,7 @@ function App() {
               <span>A new language.</span>
             </p>
           </div>
-          <img className="portrait-image" src={portraitImage} alt="Thoughtful human portrait in dramatic natural light" data-reveal />
+          <img className="portrait-image" src={portraitImage} alt="Athlete preparing with a wearable health band in warm sunrise light" data-reveal />
         </section>
 
         <section className="problem image-band">
@@ -245,7 +245,7 @@ function App() {
             </p>
           </div>
           <div className="tech-panel" data-reveal>
-            <img src={ciqInsightImage} alt="Person reflecting beside a warm interactive intelligence display" />
+            <img src={ciqInsightImage} alt="Athletes training with wearable performance data overlays" />
           </div>
           <div className="feature-row">
             {features.map(([title, text]) => (
