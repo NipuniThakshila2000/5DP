@@ -183,7 +183,7 @@ function App() {
         <section className="idea section-ivory" id="program">
           <div className="section-copy" data-reveal>
             <Eyebrow>01 — The Big Idea</Eyebrow>
-            <h2>The Human<br />Is The Point.</h2>
+            <h2><span className="mobile-hide-line">The Human</span><br className="mobile-hide-line" />Is The Point.</h2>
             <p>
               Technology can give us more information. The deeper question is what we do with it.
               CIQ brings conscience, context, technology and human potential into one five-day experience.
