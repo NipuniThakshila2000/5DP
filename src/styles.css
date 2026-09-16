@@ -233,9 +233,9 @@ p {
   padding-bottom: 54px;
   isolation: isolate;
   background:
-    linear-gradient(90deg, rgba(17, 16, 14, 0.95) 0%, rgba(17, 16, 14, 0.72) 42%, rgba(17, 16, 14, 0.36) 100%),
-    linear-gradient(0deg, rgba(17, 16, 14, 0.8), rgba(17, 16, 14, 0.12) 48%),
-    linear-gradient(128deg, rgba(142, 79, 44, 0.62) 0%, rgba(201, 130, 69, 0.36) 36%, rgba(139, 154, 134, 0.26) 68%, rgba(251, 247, 239, 0.18) 100%),
+    linear-gradient(90deg, rgba(17, 16, 14, 0.96) 0%, rgba(17, 16, 14, 0.76) 42%, rgba(17, 16, 14, 0.48) 100%),
+    linear-gradient(0deg, rgba(17, 16, 14, 0.86), rgba(17, 16, 14, 0.18) 48%),
+    linear-gradient(132deg, rgba(17, 16, 14, 0.92) 0%, rgba(76, 48, 31, 0.86) 38%, rgba(142, 79, 44, 0.72) 72%, rgba(201, 130, 69, 0.42) 100%),
     url("./assets/hero-mountain.png") center / cover;
   background-blend-mode: normal, normal, color, normal;
 }
@@ -246,8 +246,8 @@ p {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 18% 30%, rgba(201, 130, 69, 0.28), transparent 28%),
-    radial-gradient(circle at 78% 22%, rgba(251, 247, 239, 0.12), transparent 30%),
+    radial-gradient(circle at 18% 30%, rgba(201, 130, 69, 0.18), transparent 28%),
+    radial-gradient(circle at 78% 26%, rgba(251, 247, 239, 0.08), transparent 32%),
     linear-gradient(180deg, transparent 72%, var(--obsidian) 100%);
 }
 
