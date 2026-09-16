@@ -937,7 +937,6 @@ details p { color: rgba(34, 34, 31, 0.72); }
   align-items: center;
   text-align: center;
   background:
-    radial-gradient(circle at 68% 44%, rgba(199, 255, 61, 0.16), transparent 24%),
     linear-gradient(90deg, rgba(8, 11, 11, 0.88), rgba(8, 11, 11, 0.64) 46%, rgba(8, 11, 11, 0.38)),
     linear-gradient(rgba(8, 11, 11, 0.28), rgba(8, 11, 11, 0.9)),
     url("./assets/final-cta-no-device.png") center / cover;
