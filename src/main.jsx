@@ -13,7 +13,7 @@ import {
 import './styles.css';
 import logoImage from './assets/5dp-logo.png';
 import portraitImage from './assets/portrait-energy-no-device.png';
-import ciqInsightImage from './assets/ciq-panel-no-device.png';
+import ciqInsightImage from './assets/ciq-insight.png';
 
 const navItems = [
   ['Program', '#program'],
@@ -245,7 +245,7 @@ function App() {
             </p>
           </div>
           <div className="tech-panel" data-reveal>
-            <img src={ciqInsightImage} alt="Senior professional reviewing performance insight data" />
+            <img src={ciqInsightImage} alt="Person reflecting beside a warm interactive intelligence display" />
           </div>
           <div className="feature-row">
             {features.map(([title, text]) => (
