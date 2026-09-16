@@ -193,7 +193,7 @@ function App() {
               <span>A new language.</span>
             </p>
           </div>
-          <img className="portrait-image" src={portraitImage} alt="Confident athlete in warm sunrise light" data-reveal />
+          <img className="portrait-image" src={portraitImage} alt="Confident creative professional in warm studio light" data-reveal />
         </section>
 
         <section className="problem image-band">
@@ -245,7 +245,7 @@ function App() {
             </p>
           </div>
           <div className="tech-panel" data-reveal>
-            <img src={ciqInsightImage} alt="Athlete exploring performance data in a warm assessment space" />
+            <img src={ciqInsightImage} alt="Senior professional reviewing performance insight data" />
           </div>
           <div className="feature-row">
             {features.map(([title, text]) => (
