@@ -233,9 +233,11 @@ p {
   padding-bottom: 54px;
   isolation: isolate;
   background:
-    linear-gradient(90deg, rgba(8, 11, 11, 0.94) 0%, rgba(8, 11, 11, 0.76) 38%, rgba(8, 11, 11, 0.24) 100%),
-    linear-gradient(0deg, rgba(8, 11, 11, 0.72), rgba(8, 11, 11, 0.08) 50%),
-    url("./assets/hero-performance.png") center / cover;
+    linear-gradient(90deg, rgba(17, 16, 14, 0.96) 0%, rgba(17, 16, 14, 0.76) 42%, rgba(17, 16, 14, 0.48) 100%),
+    linear-gradient(0deg, rgba(17, 16, 14, 0.86), rgba(17, 16, 14, 0.18) 48%),
+    linear-gradient(132deg, rgba(17, 16, 14, 0.92) 0%, rgba(76, 48, 31, 0.86) 38%, rgba(142, 79, 44, 0.72) 72%, rgba(201, 130, 69, 0.42) 100%),
+    url("./assets/hero-mountain.png") center / cover;
+  background-blend-mode: normal, normal, color, normal;
 }
 
 .hero::before {
@@ -244,8 +246,8 @@ p {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 22% 32%, rgba(199, 255, 61, 0.12), transparent 24%),
-    radial-gradient(circle at 78% 26%, rgba(249, 240, 232, 0.14), transparent 32%),
+    radial-gradient(circle at 18% 30%, rgba(201, 130, 69, 0.18), transparent 28%),
+    radial-gradient(circle at 78% 26%, rgba(251, 247, 239, 0.08), transparent 32%),
     linear-gradient(180deg, transparent 72%, var(--obsidian) 100%);
 }
 
@@ -414,7 +416,7 @@ p {
   background:
     linear-gradient(90deg, rgba(8, 11, 11, 0.94), rgba(8, 11, 11, 0.56) 48%, rgba(8, 11, 11, 0.24)),
     linear-gradient(0deg, rgba(8, 11, 11, 0.62), transparent 46%),
-    url("./assets/ciq-performance.png") center / cover;
+    url("./assets/ciq-runners-no-device.png") center / cover;
 }
 
 .image-band::after,
@@ -938,7 +940,7 @@ details p { color: rgba(34, 34, 31, 0.72); }
     radial-gradient(circle at 68% 44%, rgba(199, 255, 61, 0.16), transparent 24%),
     linear-gradient(90deg, rgba(8, 11, 11, 0.88), rgba(8, 11, 11, 0.64) 46%, rgba(8, 11, 11, 0.38)),
     linear-gradient(rgba(8, 11, 11, 0.28), rgba(8, 11, 11, 0.9)),
-    url("./assets/final-cta-performance.png") center / cover;
+    url("./assets/final-cta-no-device.png") center / cover;
 }
 
 .final-cta > div {
